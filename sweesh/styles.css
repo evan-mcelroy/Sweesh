@@ -1,0 +1,297 @@
+/* General Styles */
+body {
+    background-color: #ececf9;
+    opacity: 1;
+    background-size: 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+h1 {
+    color: #444cf7;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 75px;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+    font-family: 'papyrus', cursive;
+}
+
+/* Post Container */
+.post {
+    background: linear-gradient(to bottom, #fafafa, #444df717);
+    border: 1px solid #aaa;
+    border-radius: 1%;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2), inset 0 1px 0 #fff;
+}
+
+/* Post Title */
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+/* Meta Information */
+.post-meta {
+    font-size: 13px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 0 #eee;
+}
+
+/* Post Content */
+.post-content {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 6px 12px; /* Smaller size */
+    font-size: 12px;    /* Smaller font size */
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #888;
+    background: linear-gradient(to bottom, #ffffff, #cfcfcf);
+    color: #333;
+    text-shadow: 1px 1px #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), inset 0 1px 0 #fff;
+    margin-right: 10px;  /* Space between buttons */
+    margin-bottom: 8px;   /* Space between buttons vertically */
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* create post button */
+.btn-create-post {
+    background: linear-gradient(to bottom, #444cf7, #444cf7);
+    border: 1px solid #888;
+    color: white;
+    text-shadow: none;
+    padding: 6px 12px; /* Smaller size */
+    font-size: 12px;    /* Smaller font size */
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #888;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), inset 0 1px 0 #fff;
+    margin-right: 10px;  /* Space between buttons */
+    margin-bottom: 8px;   /* Space between buttons vertically */
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Create Post Button Hover */
+.btn-create-post:hover {
+    background: linear-gradient(to bottom, #9ea2f7, #9ea2f7);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+
+/* button delete */
+.btn-delete {
+    background: linear-gradient(to bottom, #ff0000, #ff0000);
+    border: 1px solid #888;
+    color: white;
+    text-shadow: none;
+}
+.btn-delete-reply {
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    border: 1px solid #888;
+    color: rgb(255, 0, 0);
+    text-shadow: none;
+}
+/* button delete reply hover */
+.btn-delete-reply:hover {
+    background: linear-gradient(to bottom, #ff6e6e, #ff6e6e);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+/* button delete hover */
+.btn-delete:hover {
+    background: linear-gradient(to bottom, #ff6e6e, #ff6e6e);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.toggle-btn {
+    background: linear-gradient(to bottom, #eaeaea, #eaeaea);
+    border: 1px solid #888;
+    color: #444cf7;
+    text-shadow: none;
+}
+
+/* Toggle Button Hover */
+.toggle-btn:hover {
+    background: linear-gradient(to bottom, #9ea2f7, #9ea2f7);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    color: #eaeaea;
+}
+
+/* Edit Button */
+.btn-edit {
+    background: linear-gradient(to bottom, #eaeaea, #eaeaea);
+    border: 1px solid #888;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+}
+/* Edit Button Hover */
+.btn-edit:hover {
+    background: linear-gradient(to bottom, #a7a7a7, #a7a7a7);
+    box-shadow: 0 3pdx 8px rgba(0, 0, 0, 0.3);
+    color: rgb(0, 0, 0);
+}
+
+/* Hover Effects for Buttons */
+.btn:hover {
+    filter: brightness(1.1);
+}
+
+/* Like Button */
+.btn-up {
+    background: linear-gradient(to bottom, #444cf7, #444cf7);
+    border: 1px solid #888;
+    color: white;
+    text-shadow: none;
+}
+
+/* Like Button Hover */
+.btn-up:hover {
+    background: linear-gradient(to bottom, #9ea2f7, #9ea2f7);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+/* Submit Button */
+button, input[type="submit"] {
+    background: linear-gradient(to bottom, #444cf7, #444cf7);
+    color: #ffffff;
+    padding: 8px 12px;  /* Smaller size */
+    font-size: 12px;    /* Smaller font size */
+    border: 1px solid #888;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), inset 0 1px 0 #fff;
+    text-shadow: none;
+    margin-right: 10px;  /* Space between buttons */
+    margin-bottom: 8px;  /* Space between buttons */
+}
+/* Submit Button Hover */
+button:hover, input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #9ea2f7, #9ea2f7);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.replies {
+    background: linear-gradient(to bottom, #ffffffd4, #ffffff00);
+    border-left: 5px solid #7e84ffb6;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Comment Section */
+.comment {
+    background: linear-gradient(to bottom, #444df728, #444df704);
+    border-left: 5px solid #444cf7;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Comment Meta */
+.comment .meta {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+/* Comment Actions */
+.comment .actions {
+    margin-top: 10px;
+}
+
+.comment .actions a {
+    font-size: 13px;
+    background: linear-gradient(to bottom, #e0e0e0, #bdbdbd);
+    padding: 4px 8px;   /* Smaller padding */
+    border-radius: 4px;
+    border: 1px solid #888;
+    box-shadow: inset 0 1px 0 white, 0 1px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 8px;  /* Space between links */
+}
+
+/* Forms */
+textarea, input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 15px;  /* Adjusted padding for smaller input size */
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background: #fefefe;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: inherit;
+    font-size: 14px;
+    resize: none;
+
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.auth-buttons .btn {
+    background: linear-gradient(to bottom, #ffffff, #cfcfcf);
+    color: #333;
+    padding: 6px 12px;  /* Smaller padding */
+    font-size: 12px;    /* Smaller font size */
+    border-radius: 4px;
+    border: 1px solid #888;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 8px; /* Space between buttons */
+    text-decoration: none;
+}
+
+.auth-buttons .btn:hover {
+    background: linear-gradient(to bottom, #9ea2f7, #9ea2f7);
+    color : #ffffff;
+    text-shadow: none;
+    filter: brightness(1.1);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
